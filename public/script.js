@@ -6,7 +6,7 @@ const videoGrid = document.getElementById('video-grid')
 //})
 var myPeer = new Peer(undefined, {
                 secure: true, 
-                host: 'https://peerjstanay.herokuapp.com/', 
+                host: 'peerjstanay.herokuapp.com/', 
                 port: 443,
     });
 const myVideo = document.createElement('video')
