@@ -4,11 +4,7 @@ const videoGrid = document.getElementById('video-grid')
 // host: '/',
 //  port: '9000'
 //})
-var myPeer = new Peer(undefined, {
-                secure: true, 
-                host: 'peerjstanay.herokuapp.com/', 
-                port: 443,
-    });
+var myPeer = new Peer({host:'peerjs-server.herokuapp.com', secure:true, port:443})
 const myVideo = document.createElement('video')
 myVideo.muted = true
 const peers = {}
